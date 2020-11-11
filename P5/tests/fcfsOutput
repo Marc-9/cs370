@@ -1,0 +1,14 @@
+--- FCFS ---
+Average Turnaround Time: 4.200
+Average Waiting Time: 1.200
+Throughput: 0.333
+
+--- SJFP ---
+Average Turnaround Time: 3.600
+Average Waiting Time: 0.600
+Throughput: 0.333
+
+--- Priority ---
+Average Turnaround Time: 5.400
+Average Waiting Time: 2.400
+Throughput: 0.333
