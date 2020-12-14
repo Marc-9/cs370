@@ -1,5 +1,5 @@
 CXX=g++
-CXXFLAGS=-Wall -Wextra -Wpedantic -Werror -Wfatal-errors -Winit-self -Wshadow -Wcomment -Wctor-dtor-privacy -Wold-style-cast -D_GLIBCXX_DEBUG -fno-diagnostics-show-option -std=c++14
+CXXFLAGS=-Wall -Wextra -Wpedantic -Werror -Wfatal-errors -Winit-self -Wshadow -Wcomment -Wctor-dtor-privacy -Wold-style-cast -fno-diagnostics-show-option -std=c++14
 
 all: Scheduler.cc 
 	$(CXX) $(CXXFLAGS) -o Scheduler Scheduler.cc Task.cc AlgoContainer.cc Algos.cc

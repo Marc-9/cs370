@@ -2,8 +2,8 @@
 #include "Task.h"
 using namespace std;
 
-Task::Task(int pid, int arrivalTime, int burstDuration, int priority):
-	pid{pid}, arrivalTime{arrivalTime}, burstDuration{burstDuration}, priority{priority}, waitingTime{0}
+Task::Task(int processid, int arrival, int burst, int importance):
+	pid{processid}, arrivalTime{arrival}, burstDuration{burst}, priority{importance}, waitingTime{0}
 	{}
 
 void Task::alterBurstDuration(const int timeRan){

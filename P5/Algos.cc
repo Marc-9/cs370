@@ -71,9 +71,7 @@ void Algos::run(const int lastArrivalTime, const vector<Task> &taskPool){
 	while(this->getClockCount() <= lastArrivalTime || this->size() > 0){
 		this->addTasksToQueue(indexOfNextTask, taskPool);
 		this->incrementClock();
-		this->operationsOnQueue();
-		
-
+		this->operationsOnQueue();	
 	}
 	this->averageTime(taskPool.size());
 	outputResults(taskPool.size());
@@ -99,6 +97,7 @@ void Algos::addTasksToQueue(unsigned &indexOfNextTask, const vector<Task> &taskP
         this->addToQueue(taskPool[indexOfNextTask]);
         ++indexOfNextTask;
     }
+    
 }
 
 void Algos::outputResults(int taskPoolSize){

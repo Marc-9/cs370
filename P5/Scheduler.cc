@@ -24,9 +24,7 @@ int main(int argc, char *argv[]){
 		}
 	}
 	inputFile.close();
-
 	taskStructure.sortByArrival();
-
 	taskStructure.runFCFS();
 	taskStructure.runSJF();
 	taskStructure.runPriority();

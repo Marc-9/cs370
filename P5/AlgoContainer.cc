@@ -1,7 +1,7 @@
 #include "AlgoContainer.h"
 #include "Algos.h"
 #include <iostream>
-
+#include <algorithm>
 using namespace std;
 
 void AlgoContainer::addTask(const Task newTask){
