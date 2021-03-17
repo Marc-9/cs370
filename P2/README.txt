@@ -13,7 +13,7 @@ To compile:
     make all
 
 To run:
-    ./coordinator <divisor> <dividend> <dividend> <dividend> <dividend>
+    ./coordinator <dividend> <divisor> <dividend> <dividend> <dividend>
 
 For example;
     ./coordinator 1 2 3 4 5
