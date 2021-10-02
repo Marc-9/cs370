@@ -1,5 +1,3 @@
-John Heywood once said "Rome wasn't built in a day", well then its a good thing I did not name this program Rome, because it was built in a day. But just as millions of people a day marvel at the wonderful creation that is Rome, so will they marvel at the beautifulness which is this code. Granted near the end I got a bit sloppy, with code duplication, and doing easy fixes (bools rather than enums, also I think I have a memory leak). While the code is as beautiful as Rome, it is also as fragile, so barbarians (those who feed my program bad input) can likely make my program fail.
-
 Files
 Headers [Task.h, Scheduler.h, Algos.h, AlgoContainer.h]
 
